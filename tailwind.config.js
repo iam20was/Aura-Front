@@ -3,11 +3,15 @@ module.exports = {
   content: ['./*.html'],
   theme: {
     extend: {
+      fontFamily: {
+        'opensans' : ['Open Sans', 'sans-serif'],
+        'quicksand': ['Quicksand', 'sans-serif'], 
+      },
       screens:{
         sm: '480px',
         md: '768px',
         lg: '976px',
-        xl: '1440px'
+        xl: '1440px'  
       },
       
         colors:{

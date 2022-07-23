@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>AuraEd</title>
 </head>
-<body>
+<body class="font-quicksand">
     <!-- Contact Navbar -->
     <div class="bg-primaryDark p-2">
         <div class="container mx-auto flex justify-between items-center">
@@ -35,19 +36,19 @@
     </div>
 
     <!-- Navbar -->
-    <nav class="container mx-auto pt-5">
+    <nav class="container mx-auto py-3">
         <div class="flex items-center justify-between">
-            <div class="pb-2">
+            <div>
                 <img class="w-[100px] h-[60px]" src="./assets/logo.png" alt="auraed" />
             </div>
             
-            <div class="hidden space-x-6 md:flex">
-                <a href="#" class="text-primaryDark font-bold hover:text-primaryDark ">Home</a>
-                <a href="#" class="text-dark hover:text-primaryDark hover:font-bold">Blogs</a>
-                <a href="#" class="text-dark hover:text-primaryDark hover:font-bold">Albums</a>
-                <a href="#" class="text-dark hover:text-primaryDark hover:font-bold">Events</a>
-                <a href="#" class="text-dark hover:text-primaryDark hover:font-bold">About</a>
-                <a href="#" class="text-dark hover:text-primaryDark hover:font-bold">Contact</a>
+            <div class="hidden text-dark space-x-6 md:flex">
+                <a href="#" class="text-primaryDark font-bold hover:text-primaryDark hover:font-bold">Home</a>
+                <a href="#" class="hover:text-primaryDark hover:font-bold">Blogs</a>
+                <a href="#" class="hover:text-primaryDark hover:font-bold">Albums</a>
+                <a href="#" class="hover:text-primaryDark hover:font-bold">Events</a>
+                <a href="#" class="hover:text-primaryDark hover:font-bold">About</a>
+                <a href="#" class="hover:text-primaryDark hover:font-bold">Contact</a>
               </div>
               <a
           href="#"
@@ -55,12 +56,35 @@
           >Donate Us</a
         >
         </div>
-    
-        <!-- Hero -->
-        <section id="hero">
-            
-        </section>
-    </nav>
+    </nav>  
+
+     <!-- Hero -->   
+     <section id="hero" style="background-image: url('https://cdn.pixabay.com/photo/2022/07/13/08/06/trees-7318791__340.jpg'); background-repeat:no-repeat; background-size:cover;" class="bg-black bg-blend-overlay bg-opacity-40 relative h-[80vh] ">
+        
+        <div class="flex flex-col container mx-auto pt-5 h-full">   
+            <div class="flex h-full flex-col text-white space-y-5 justify-center">
+                <h1 class="text-4xl max-w-5xl font-bold">Support Children For Education</h1>
+                <p class="text-sm max-w-xl">Only 84% of children attend school in Nepal because many children leave school before their 11th birthday due to various difficulties. It's a dutiful responsibility of ours for this devastating scenario to be solved by alarming the children about the various branches of the technological world in near future</p>
+            </div>
+            <div class="flex justify-between text-white pb-5 justify-self-end">
+                <button class="border-2 border-primary rounded-full p-2 ">
+                    <img class="w-[20px] h-[20px]" src="/assets/left-arrow.svg" />
+                </button>
+                <div class="flex space-x-2 items-end">
+                    <div class="w-[8px] h-[8px] bg-primary rounded-full">
+                    </div>
+                    <div class="w-[8px] h-[8px] bg-white rounded-full">
+                    </div>
+                    <div class="w-[8px] h-[8px] bg-white rounded-full">
+                    </div>
+                </div>
+                <button class="border-2 border-primary rounded-full p-2 ">
+                    <img class="w-[20px] h-[20px]" src="/assets/right-arrow.svg" />
+                </button>
+            </div>
+        </div>
+        
+    </section>
 
 </body>
 </html>
