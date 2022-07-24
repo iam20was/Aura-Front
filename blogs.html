@@ -54,170 +54,73 @@
 
         <!-- Nav Items -->
         <div class="hidden text-dark space-x-6 md:flex">
-            <a
-              href="/"
-              class="text-primaryDark font-bold hover:text-primaryDark hover:font-bold"
-              >Home</a
-            >
-            <a href="/blogs.html" class="hover:text-primaryDark hover:font-bold">Blogs</a>
-            <a href="/albums.html" class="hover:text-primaryDark hover:font-bold">Albums</a>
-            <a href="/events.html" class="hover:text-primaryDark hover:font-bold">Events</a>
-            <a href="/about.html" class="hover:text-primaryDark hover:font-bold">About</a>
-            <a href="/contact.html" class="hover:text-primaryDark hover:font-bold">Contact</a>
-          </div>
           <a
-            href="/donate.html"
-            class="hidden py-2 px-6 font-bold text-white bg-primary rounded-xl baseline hover:bg-primaryDark md:block"
-            >Donate Us</a
+            href="/"
+            class="text-primaryDark font-bold hover:text-primaryDark hover:font-bold"
+            >Home</a
+          >
+          <a href="/blogs.html" class="hover:text-primaryDark hover:font-bold"
+            >Blogs</a
+          >
+          <a href="/albums.html" class="hover:text-primaryDark hover:font-bold"
+            >Albums</a
+          >
+          <a href="/events.html" class="hover:text-primaryDark hover:font-bold"
+            >Events</a
+          >
+          <a href="/about.html" class="hover:text-primaryDark hover:font-bold"
+            >About</a
+          >
+          <a href="/contact.html" class="hover:text-primaryDark hover:font-bold"
+            >Contact</a
           >
         </div>
+        <a
+          href="/donate.html"
+          class="hidden py-2 px-6 font-bold text-white bg-primary rounded-xl baseline hover:bg-primaryDark md:block"
+          >Donate Us</a
+        >
+      </div>
     </nav>
 
     <!-- Hero -->
     <section
       id="hero"
-      style="background-image: url('./assets/cover-bg.svg');background-repeat:no-repeat; background-size:auto 100%"
+      style="
+        background-image: url('./assets/cover-bg.svg');
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+      "
       class="relative h-[50vh]"
     >
       <div class="flex container mx-auto px-2 h-full md:px-0">
-        <div class="flex md:w-1/2 -mt-6 h-full flex-col space-y-5 items-center text-center md:mt-0 md:text-start md:items-start md:jusity-start justify-center">
-          <h1 class="text-4xl max-w-5xl font-bold">
-            Blogs        
-          </h1>
+        <div
+          class="flex md:w-1/2 -mt-6 h-full flex-col space-y-5 items-center text-center md:mt-0 md:text-start md:items-start md:jusity-start justify-center"
+        >
+          <h1 class="text-4xl max-w-5xl font-bold">Blogs</h1>
           <p class="text-sm font-semibold text-dark">
-            We are a non-profital organization focusing on child education with technology.
+            We are a non-profital organization focusing on child education with
+            technology.
           </p>
         </div>
         <div class="hidden md:flex md:w-1/2 self-center justify-center">
-            <img src="./assets/logo.png" alt="logo"/>
+          <img src="./assets/logo.png" alt="logo" />
         </div>
-        
       </div>
     </section>
 
-     <!-- Popular Blogs -->
-     <section id="blogs" class="mt-20">
+    <!-- Popular Blogs -->
+    <section id="popular" class="mt-20">
         <div class="container px-2 mx-auto flex flex-col md:px-0">
           <!-- Blog Info -->
           <div class="space-y-3 text-center md:text-start">
             <h2 class="text-3xl font-bold">Popular Blogs</h2>
-            
-          </div>
-  
-          <!-- Blog Cards -->
-          <div
-            class="flex flex-col justify-between mt-10 space-y-10 md:flex-row md:space-y-0 md:space-x-5"
-          >
-            <!-- Blog 1 -->
-            <div class="flex flex-col justify-between w-full md:w-1/3 space-y-3">
-              <img
-                class="rounded-t-2xl w-full h-[200px] object-cover"
-                src="https://auraed.org/assets/images/events/image_01.webp"
-                alt=""
-              />
-  
-              <div class="flex flex-col justify-between space-y-6">
-                <div class="space-y-2">
-                  <h3 class="text-xl font-bold text-primaryDark">
-                    Education in Itahari
-                  </h3>
-                  <p class="text-sm text-dark">
-                    After months of lockdown, the schools in most of the places
-                    were finally reopened. And I was fortunate enough to get ...
-                  </p>
-                </div>
-  
-                <a href="#blogs">
-                  <div class="flex items-center space-x-2 text-sm font-bold">
-                    <span>Read More</span>
-                    <img
-                      class="w-[12px] h-[12px]"
-                      src="./assets/read-more-arrow.svg"
-                      alt="arrow"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-  
-            <!-- Blog 2 -->
-            <div class="flex flex-col justify-between w-full md:w-1/3 space-y-3">
-              <img
-                class="rounded-t-2xl w-full h-[200px] object-cover"
-                src="https://auraed.org/assets/images/events/image_02.webp"
-                alt=""
-              />
-  
-              <div class="flex flex-col justify-between space-y-6">
-                <div class="space-y-2">
-                  <h3 class="text-xl font-bold text-primaryDark">Why AuraEd?</h3>
-                  <p class="text-sm text-dark">
-                    Nepal is a developing country that lacks resources for proper
-                    education and opportunities. The problems ...
-                  </p>
-                </div>
-  
-                <a href="#blogs">
-                  <div class="flex items-center space-x-2 text-sm font-bold">
-                    <span>Read More</span>
-                    <img
-                      class="w-[12px] h-[12px]"
-                      src="./assets/read-more-arrow.svg"
-                      alt="arrow"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-  
-            <!-- Blog 3 -->
-            <div class="flex flex-col justify-between w-full md:w-1/3 space-y-3">
-              <img
-                class="rounded-t-2xl w-full h-[200px] object-cover"
-                src="https://auraed.org/assets/images/events/image_03.webp"
-                alt=""
-              />
-  
-              <div class="flex flex-col justify-between space-y-6">
-                <div class="space-y-2">
-                  <h3 class="text-xl font-bold text-primaryDark">
-                    Apply to Project AuraEd
-                  </h3>
-                  <p class="text-sm text-dark">
-                    As we alone can’t make a huge difference as much as our unity
-                    does, we approach you for your help. From the native ..
-                  </p>
-                </div>
-  
-                <a href="#blogs">
-                  <div class="flex items-center space-x-2 text-sm font-bold">
-                    <span>Read More</span>
-                    <img
-                      class="w-[12px] h-[12px]"
-                      src="./assets/read-more-arrow.svg"
-                      alt="arrow"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-     <!-- Recent Blogs -->
-     <section id="blogs" class="mt-20">
-        <div class="container px-2 mx-auto flex flex-col md:px-0">
-          <!-- Blog Info -->
-          <div class="space-y-3 text-center md:text-start">
-            <h2 class="text-3xl font-bold">Recents</h2>
           </div>
   
           <!-- Blog Cards -->
           <div
             class="flex flex-col justify-between mt-10 space-y-10 md:grid md:grid-cols-3 md:gap-4 md:gap-y-10 md:space-y-0"
-          >        
-  
+          >
             <!-- Blog 1 -->
             <div class="flex flex-col justify-between w-full space-y-3">
               <img
@@ -249,7 +152,7 @@
                 </a>
               </div>
             </div>
-
+  
             <!-- Blog 2 -->
             <div class="flex flex-col justify-between w-full space-y-3">
               <img
@@ -281,7 +184,7 @@
                 </a>
               </div>
             </div>
-
+  
             <!-- Blog 3 -->
             <div class="flex flex-col justify-between w-full space-y-3">
               <img
@@ -314,173 +217,293 @@
               </div>
             </div>
 
-            <!-- Blog 4 -->
-            <div class="flex flex-col justify-between w-full space-y-3">
-              <img
-                class="rounded-t-2xl w-full h-[200px] object-cover"
-                src="https://auraed.org/assets/images/events/image_02.webp"
-                alt=""
-              />
-  
-              <div class="flex flex-col justify-between space-y-6">
-                <div class="space-y-2">
-                  <h3 class="text-xl font-bold text-primaryDark">
-                    Apply to Project AuraEd
-                  </h3>
-                  <p class="text-sm text-dark">
-                    As we alone can’t make a huge difference as much as our unity
-                    does, we approach you for your help. From the native ..
-                  </p>
-                </div>
-  
-                <a href="#blogs">
-                  <div class="flex items-center space-x-2 text-sm font-bold">
-                    <span>Read More</span>
-                    <img
-                      class="w-[12px] h-[12px]"
-                      src="./assets/read-more-arrow.svg"
-                      alt="arrow"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-
-            <!-- Blog 5 -->
-            <div class="flex flex-col justify-between w-full space-y-3">
-              <img
-                class="rounded-t-2xl w-full h-[200px] object-cover"
-                src="https://auraed.org/assets/images/events/image_03.webp"
-                alt=""
-              />
-  
-              <div class="flex flex-col justify-between space-y-6">
-                <div class="space-y-2">
-                  <h3 class="text-xl font-bold text-primaryDark">
-                    Apply to Project AuraEd
-                  </h3>
-                  <p class="text-sm text-dark">
-                    As we alone can’t make a huge difference as much as our unity
-                    does, we approach you for your help. From the native ..
-                  </p>
-                </div>
-  
-                <a href="#blogs">
-                  <div class="flex items-center space-x-2 text-sm font-bold">
-                    <span>Read More</span>
-                    <img
-                      class="w-[12px] h-[12px]"
-                      src="./assets/read-more-arrow.svg"
-                      alt="arrow"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-
-            <!-- Blog 6 -->
-            <div class="flex flex-col justify-between w-full space-y-3">
-              <img
-                class="rounded-t-2xl w-full h-[200px] object-cover"
-                src="https://auraed.org/assets/images/events/image_02.webp"
-                alt=""
-              />
-  
-              <div class="flex flex-col justify-between space-y-6">
-                <div class="space-y-2">
-                  <h3 class="text-xl font-bold text-primaryDark">
-                    Apply to Project AuraEd
-                  </h3>
-                  <p class="text-sm text-dark">
-                    As we alone can’t make a huge difference as much as our unity
-                    does, we approach you for your help. From the native ..
-                  </p>
-                </div>
-  
-                <a href="#blogs">
-                  <div class="flex items-center space-x-2 text-sm font-bold">
-                    <span>Read More</span>
-                    <img
-                      class="w-[12px] h-[12px]"
-                      src="./assets/read-more-arrow.svg"
-                      alt="arrow"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </section>
+
+    <!-- Recent Blogs -->
+    <section id="recents" class="mt-20">
+      <div class="container px-2 mx-auto flex flex-col md:px-0">
+        <!-- Blog Info -->
+        <div class="space-y-3 text-center md:text-start">
+          <h2 class="text-3xl font-bold">Recents</h2>
+        </div>
+
+        <!-- Blog Cards -->
+        <div
+          class="flex flex-col justify-between mt-10 space-y-10 md:grid md:grid-cols-3 md:gap-4 md:gap-y-10 md:space-y-0"
+        >
+          <!-- Blog 1 -->
+          <div class="flex flex-col justify-between w-full space-y-3">
+            <img
+              class="rounded-t-2xl w-full h-[200px] object-cover"
+              src="https://auraed.org/assets/images/events/image_01.webp"
+              alt=""
+            />
+
+            <div class="flex flex-col justify-between space-y-6">
+              <div class="space-y-2">
+                <h3 class="text-xl font-bold text-primaryDark">
+                  Apply to Project AuraEd
+                </h3>
+                <p class="text-sm text-dark">
+                  As we alone can’t make a huge difference as much as our unity
+                  does, we approach you for your help. From the native ..
+                </p>
+              </div>
+
+              <a href="#blogs">
+                <div class="flex items-center space-x-2 text-sm font-bold">
+                  <span>Read More</span>
+                  <img
+                    class="w-[12px] h-[12px]"
+                    src="./assets/read-more-arrow.svg"
+                    alt="arrow"
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Blog 2 -->
+          <div class="flex flex-col justify-between w-full space-y-3">
+            <img
+              class="rounded-t-2xl w-full h-[200px] object-cover"
+              src="https://auraed.org/assets/images/events/image_02.webp"
+              alt=""
+            />
+
+            <div class="flex flex-col justify-between space-y-6">
+              <div class="space-y-2">
+                <h3 class="text-xl font-bold text-primaryDark">
+                  Apply to Project AuraEd
+                </h3>
+                <p class="text-sm text-dark">
+                  As we alone can’t make a huge difference as much as our unity
+                  does, we approach you for your help. From the native ..
+                </p>
+              </div>
+
+              <a href="#blogs">
+                <div class="flex items-center space-x-2 text-sm font-bold">
+                  <span>Read More</span>
+                  <img
+                    class="w-[12px] h-[12px]"
+                    src="./assets/read-more-arrow.svg"
+                    alt="arrow"
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Blog 3 -->
+          <div class="flex flex-col justify-between w-full space-y-3">
+            <img
+              class="rounded-t-2xl w-full h-[200px] object-cover"
+              src="https://auraed.org/assets/images/events/image_03.webp"
+              alt=""
+            />
+
+            <div class="flex flex-col justify-between space-y-6">
+              <div class="space-y-2">
+                <h3 class="text-xl font-bold text-primaryDark">
+                  Apply to Project AuraEd
+                </h3>
+                <p class="text-sm text-dark">
+                  As we alone can’t make a huge difference as much as our unity
+                  does, we approach you for your help. From the native ..
+                </p>
+              </div>
+
+              <a href="#blogs">
+                <div class="flex items-center space-x-2 text-sm font-bold">
+                  <span>Read More</span>
+                  <img
+                    class="w-[12px] h-[12px]"
+                    src="./assets/read-more-arrow.svg"
+                    alt="arrow"
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Blog 4 -->
+          <div class="flex flex-col justify-between w-full space-y-3">
+            <img
+              class="rounded-t-2xl w-full h-[200px] object-cover"
+              src="https://auraed.org/assets/images/events/image_02.webp"
+              alt=""
+            />
+
+            <div class="flex flex-col justify-between space-y-6">
+              <div class="space-y-2">
+                <h3 class="text-xl font-bold text-primaryDark">
+                  Apply to Project AuraEd
+                </h3>
+                <p class="text-sm text-dark">
+                  As we alone can’t make a huge difference as much as our unity
+                  does, we approach you for your help. From the native ..
+                </p>
+              </div>
+
+              <a href="#blogs">
+                <div class="flex items-center space-x-2 text-sm font-bold">
+                  <span>Read More</span>
+                  <img
+                    class="w-[12px] h-[12px]"
+                    src="./assets/read-more-arrow.svg"
+                    alt="arrow"
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Blog 5 -->
+          <div class="flex flex-col justify-between w-full space-y-3">
+            <img
+              class="rounded-t-2xl w-full h-[200px] object-cover"
+              src="https://auraed.org/assets/images/events/image_03.webp"
+              alt=""
+            />
+
+            <div class="flex flex-col justify-between space-y-6">
+              <div class="space-y-2">
+                <h3 class="text-xl font-bold text-primaryDark">
+                  Apply to Project AuraEd
+                </h3>
+                <p class="text-sm text-dark">
+                  As we alone can’t make a huge difference as much as our unity
+                  does, we approach you for your help. From the native ..
+                </p>
+              </div>
+
+              <a href="#blogs">
+                <div class="flex items-center space-x-2 text-sm font-bold">
+                  <span>Read More</span>
+                  <img
+                    class="w-[12px] h-[12px]"
+                    src="./assets/read-more-arrow.svg"
+                    alt="arrow"
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Blog 6 -->
+          <div class="flex flex-col justify-between w-full space-y-3">
+            <img
+              class="rounded-t-2xl w-full h-[200px] object-cover"
+              src="https://auraed.org/assets/images/events/image_02.webp"
+              alt=""
+            />
+
+            <div class="flex flex-col justify-between space-y-6">
+              <div class="space-y-2">
+                <h3 class="text-xl font-bold text-primaryDark">
+                  Apply to Project AuraEd
+                </h3>
+                <p class="text-sm text-dark">
+                  As we alone can’t make a huge difference as much as our unity
+                  does, we approach you for your help. From the native ..
+                </p>
+              </div>
+
+              <a href="#blogs">
+                <div class="flex items-center space-x-2 text-sm font-bold">
+                  <span>Read More</span>
+                  <img
+                    class="w-[12px] h-[12px]"
+                    src="./assets/read-more-arrow.svg"
+                    alt="arrow"
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Footer -->
     <section id="footer" class="mt-20 px-2 md:px-0">
-        <div class="p-6 container mx-auto bg-primaryLight rounded-2xl space-y-5 md:p-12">
-          <div
-            class="text-center md:text-start flex flex-col justify-between items-center space-y-10 md:items-start md:flex-row md:space-x-8 md:space-y-0 "
-          >
-            <!-- Footer Info -->
-            <div class="w-full text-center md:w-1/3 md:text-start space-y-3">
-              <div class="flex justify-center md:justify-start">
-                <img
-                  class="self-center w-[100px] h-[60px]"
-                  src="./assets/logo.png"
-                  alt="auraed"
-                />
-              </div>
-              <p class="text-sm">
-                We're proud to say that Project AuraEd has successfully reached
-                five schools and taught over a thousand students from different
-                districts of Nepal.
-              </p>
+      <div
+        class="p-6 container mx-auto bg-primaryLight rounded-2xl space-y-5 md:p-12"
+      >
+        <div
+          class="text-center md:text-start flex flex-col justify-between items-center space-y-10 md:items-start md:flex-row md:space-x-8 md:space-y-0"
+        >
+          <!-- Footer Info -->
+          <div class="w-full text-center md:w-1/3 md:text-start space-y-3">
+            <div class="flex justify-center md:justify-start">
+              <img
+                class="self-center w-[100px] h-[60px]"
+                src="./assets/logo.png"
+                alt="auraed"
+              />
             </div>
-  
-            <!-- Links -->
-            <div class="w-full flex md:w-2/5 justify-between">
-              <!-- Pages -->
-              <div class="text-center md:text-start items-center space-y-3">
-                <h3 class="text-xl font-bold text-primary">Pages</h3>
-                <div class="flex flex-col space-y-2">
-                  <a href="#" class="text-sm font-semibold">About Us</a>
-                  <a href="#" class="text-sm font-semibold">Portfolio</a>
-                  <a href="#" class="text-sm font-semibold">Blogs</a>
-                </div>
-              </div>
-    
-              <!-- Contact -->
-              <div class="text-center md:text-start space-y-3">
-                <h3 class="text-xl font-bold text-primary">Contact Us</h3>
-                <div class="flex flex-col space-y-2">
-                  <a href="#" class="text-sm font-semibold">Kathmandu, Nepal</a>
-                  <a href="#" class="text-sm font-semibold">Help Center</a>
-                  
-                  <!-- Social Links -->
-                  <div class="flex justify-center md:justify-start space-x-2 pt-2">
-                    <a class="w-[8px] h-[9px] text-primary" href="#">
-                      <img src="./assets/facebook-primary.svg" alt="mail" />
-                    </a>
-                    <a class="w-[14px] h-[14px]" href="#">
-                      <img src="./assets/twitter-primary.svg" alt="mail" />
-                    </a>
-                    <a class="w-[14px] h-[14px]" href="#">
-                      <img src="./assets/instagram-primary.svg" alt="mail" />
-                    </a>
-                    <a class="w-[14px] h-[14px]" href="#">
-                      <img src="./assets/linkedin-primary.svg" alt="mail" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>          
+            <p class="text-sm">
+              We're proud to say that Project AuraEd has successfully reached
+              five schools and taught over a thousand students from different
+              districts of Nepal.
+            </p>
           </div>
-          <hr class="text-dark">
-  
-          <!-- Copyright -->
-          <div class="flex flex-col space-y-2 justify-center text-center md:text-start md:flex-row md:justify-between">
-            <p class="text-sm font-bold">&copy; 2022 Aura Ed</p>
-            <p class="text-sm text-dark font-semibold">Developed with ❤️ and ☕</p>
+
+          <!-- Links -->
+          <div class="w-full flex md:w-2/5 justify-between">
+            <!-- Pages -->
+            <div class="text-center md:text-start items-center space-y-3">
+              <h3 class="text-xl font-bold text-primary">Pages</h3>
+              <div class="flex flex-col space-y-2">
+                <a href="#" class="text-sm font-semibold">About Us</a>
+                <a href="#" class="text-sm font-semibold">Portfolio</a>
+                <a href="#" class="text-sm font-semibold">Blogs</a>
+              </div>
+            </div>
+
+            <!-- Contact -->
+            <div class="text-center md:text-start space-y-3">
+              <h3 class="text-xl font-bold text-primary">Contact Us</h3>
+              <div class="flex flex-col space-y-2">
+                <a href="#" class="text-sm font-semibold">Kathmandu, Nepal</a>
+                <a href="#" class="text-sm font-semibold">Help Center</a>
+
+                <!-- Social Links -->
+                <div
+                  class="flex justify-center md:justify-start space-x-2 pt-2"
+                >
+                  <a class="w-[8px] h-[9px] text-primary" href="#">
+                    <img src="./assets/facebook-primary.svg" alt="mail" />
+                  </a>
+                  <a class="w-[14px] h-[14px]" href="#">
+                    <img src="./assets/twitter-primary.svg" alt="mail" />
+                  </a>
+                  <a class="w-[14px] h-[14px]" href="#">
+                    <img src="./assets/instagram-primary.svg" alt="mail" />
+                  </a>
+                  <a class="w-[14px] h-[14px]" href="#">
+                    <img src="./assets/linkedin-primary.svg" alt="mail" />
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
+        <hr class="text-dark" />
+
+        <!-- Copyright -->
+        <div
+          class="flex flex-col space-y-2 justify-center text-center md:text-start md:flex-row md:justify-between"
+        >
+          <p class="text-sm font-bold">&copy; 2022 Aura Ed</p>
+          <p class="text-sm text-dark font-semibold">
+            Developed with ❤️ and ☕
+          </p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
